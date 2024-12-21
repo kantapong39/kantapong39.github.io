@@ -1,8 +1,54 @@
-p#p1 {
-  color : blueviolet;
-}
-.p2{
-  color: darkorange;
-}
+
+    body {
+      background-color: #f9f5ed;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    header h2 a {
+      text-decoration: none;
+      color: black;
+    }
+    hr {
+      border: 1px solid #000;
+    }
+    h2 {
+      text-align: center;
+    }
+    form {
+      background-color: #f5e4c9;
+      padding: 20px;
+      border: 1px solid #fad29e;
+      border-radius: 10px;
+      width: 70%;
+      margin: 0 auto;
+    }
+    label {
+      font-weight: bold;
+    }
+    table {
+      width: 100%;
+    }
+    td {
+      padding: 10px 0;
+    }
+    input[type="text"] {
+      width: calc(100% - 20px);
+      padding: 5px;
+    }
+    select {
+      width: 100%;
+      padding: 5px;
+    }
+    input[type="submit"] {
+      background-color: #f5c542;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    input[type="submit"]:hover {
+      background-color: #e3ae36;
+    }
 
 
